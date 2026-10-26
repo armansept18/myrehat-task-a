@@ -3,12 +3,12 @@
 
 add_action( 'wp_enqueue_scripts', 'myrehat_test_assets' );
 function myrehat_test_assets() {
-    wp_enqueue_style( 'myrehat-test-style', get_stylesheet_uri(), array(), '1.0.0' );
+    wp_enqueue_style( 'myrehat-test-style', get_stylesheet_uri(), array(), '1.0.2' );
     wp_enqueue_script(
         'myrehat-test-trails',
         get_stylesheet_directory_uri() . '/trails.js',
         array(),
-        '1.0.0',
+        '1.0.2',
         true
     );
 }
