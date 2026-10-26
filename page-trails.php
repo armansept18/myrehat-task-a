@@ -2,8 +2,14 @@
 /* Template Name: Trails Test Page */
 get_header();
 ?>
+<div class="top-sticky-contact">
+  <span>Contact Us:</span>
+  <a href="https://wa.me/" class="contact-whatsapp" target="_blank" rel="noopener noreferrer"><strong>WhatsApp</strong></a>
+  <a href="https://line.me/" class="contact-line" target="_blank" rel="noopener noreferrer"><strong>LINE</strong></a>
+</div>
+
 <header class="site-header-trails">
-  <h1>Hiking Advantures</h1>
+  <h1>Tropic Hiking Trails</h1>
   <p>Find your next trail with MyRehat</p>
   <input id="main-search" type="text" placeholder="Search homepage...">
 </header>
@@ -60,8 +66,23 @@ get_header();
   <section class="trails-booking">
     <h2><?php echo esc_html( myrehat_test_booking_title() ); ?></h2>
     <form id="booking-form">
+      <?php wp_nonce_field( 'trails_booking_action', 'trails_booking_nonce' ); ?>
+      <input type="hidden" name="trails_booking" value="1">
       <label>Name <input type="text" name="name" required></label>
       <label>Date <input type="date" name="date" required></label>
+      <div class="form-row form-nomad">
+        <span class="label-title">Digital Nomad:</span>
+        <label><input type="radio" name="digital_nomad" value="Ya" required> Ya</label>
+        <label><input type="radio" name="digital_nomad" value="Tidak" required> Tidak</label>
+      </div>
+      <div class="form-row form-plan">
+        <span class="label-title">Package Plan:</span>
+        <label><input type="radio" name="pricing_plan" value="Daily" required> Daily</label>
+        <label><input type="radio" name="pricing_plan" value="Monthly" required> Monthly</label>
+      </div>
+      <label class="form-terms">
+        <input type="checkbox" name="host_terms" value="1" required> I agree to the Host Terms
+      </label>
       <p id="trails-total">Total: -</p>
       <button type="submit">Request booking</button>
     </form>
@@ -74,13 +95,15 @@ get_header();
     <a href="#">FAQ</a>
     <a href="#">Contact Us</a>
     <a href="#">PDPA</a>
-    <a href="#">Privacy Policy Statement</a>
-    <a href="#">Blog</a>
-    <a href="#">Careers</a>
-    <a href="#">Terms of Service</a>
-    <a href="#">Sitemap</a>
-    <a href="#">Twitter</a>
+    <a href="#">Privacy Policy</a>
   </nav>
+  <div class="trails-social-links">
+    <a href="#">Facebook</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">IG</a>
+    <a href="#">TikTok</a>
+    <a href="#">YouTube</a>
+  </div>
   <p>&copy; 2026 MyRehat</p>
 </footer>
 <?php get_footer(); ?>
