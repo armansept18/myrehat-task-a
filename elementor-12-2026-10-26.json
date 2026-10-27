@@ -1,1 +1,357 @@
-{"content":[{"id":"6aec8d17","settings":{"classes":{"$$type":"classes","value":["e-6aec8d17-0cf11f3"]}},"elements":[{"id":"23f91b6c","settings":{"classes":{"$$type":"classes","value":["e-23f91b6c-1470354"]},"title":{"$$type":"escaped-html","value":"Tropic Hiking Trails"}},"elements":[],"isInner":false,"widgetType":"e-heading","elType":"widget","styles":{"e-23f91b6c-1470354":{"id":"e-23f91b6c-1470354","label":"local","type":"class","variants":[{"meta":{"breakpoint":"desktop","state":null},"props":{"color":{"$$type":"color","value":"#FFF"}},"custom_css":null}]}},"version":"0.0"},{"id":"2d1f1c72","settings":{"classes":{"$$type":"classes","value":["e-2d1f1c72-d57517a"]},"paragraph":{"$$type":"escaped-html","value":"Find your next trail with MyRehat"},"link":{"$$type":"link","value":[]}},"elements":[],"isInner":false,"widgetType":"e-paragraph","elType":"widget","styles":{"e-2d1f1c72-d57517a":{"id":"e-2d1f1c72-d57517a","label":"local","type":"class","variants":[{"meta":{"breakpoint":"desktop","state":null},"props":{"color":{"$$type":"color","value":"#FFF"}},"custom_css":null}]}},"version":"0.0"},{"id":"5e551523","settings":{"html":"<div style=\"text-align: center; margin-top: 14px;\">\r\n  <input id=\"main-search\" type=\"text\" placeholder=\"Search homepage...\" style=\"padding: 10px; font-size: 15px; width: min(420px, 90%); border: none; border-radius: 4px;\" \/>\r\n<\/div>"},"elements":[],"isInner":false,"widgetType":"html","elType":"widget"}],"isInner":false,"elType":"e-flexbox","styles":{"e-6aec8d17-0cf11f3":{"id":"e-6aec8d17-0cf11f3","label":"local","type":"class","variants":[{"meta":{"breakpoint":"desktop","state":null},"props":{"padding":{"$$type":"dimensions","value":{"block-start":{"$$type":"size","value":{"unit":"px","size":32}},"inline-end":{"$$type":"size","value":{"unit":"px","size":20}},"block-end":{"$$type":"size","value":{"unit":"px","size":32}},"inline-start":{"$$type":"size","value":{"unit":"px","size":20}}}},"background":{"$$type":"background","value":{"color":{"$$type":"color","value":"#0c6b4f"}}},"flex-direction":{"$$type":"string","value":"column"},"justify-content":{"$$type":"string","value":"center"},"align-items":{"$$type":"string","value":"center"}},"custom_css":null}]}},"version":"0.0"}],"page_settings":[],"version":"0.4","title":"tropic-hiking-hero","type":"page"}
+{
+  "content": [
+    {
+      "id": "a1contact",
+      "settings": {
+        "classes": { "$$type": "classes", "value": ["e-a1contact-style"] }
+      },
+      "elements": [
+        {
+          "id": "a1contacthtml",
+          "settings": {
+            "html": "<div class=\"top-sticky-contact\" style=\"font-weight: bold; color: #fff; padding: 10px 16px; display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%;\">\n  <span style=\"font-weight: bold; color: #fff;\">Contact Us:</span>\n  <a href=\"https://wa.me/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; font-weight: bold; padding: 6px 14px; border-radius: 4px; background: #25d366; color: #fff; font-size: 14px;\">WhatsApp</a>\n  <a href=\"https://line.me/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; font-weight: bold; padding: 6px 14px; border-radius: 4px; background: #00c300; color: #fff; font-size: 14px;\">LINE</a>\n</div>"
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "html",
+          "elType": "widget"
+        }
+      ],
+      "isInner": false,
+      "elType": "e-flexbox",
+      "styles": {
+        "e-a1contact-style": {
+          "id": "e-a1contact-style",
+          "label": "contact-bar",
+          "type": "class",
+          "variants": [
+            {
+              "meta": { "breakpoint": "desktop", "state": null },
+              "props": {
+                "width": { "$$type": "size", "value": { "unit": "%", "size": 100 } },
+                "background": {
+                  "$$type": "background",
+                  "value": {
+                    "color": { "$$type": "color", "value": "#094f3a" }
+                  }
+                },
+                "flex-direction": { "$$type": "string", "value": "column" },
+                "justify-content": { "$$type": "string", "value": "center" },
+                "align-items": { "$$type": "string", "value": "stretch" },
+                "padding": {
+                  "$$type": "dimensions",
+                  "value": {
+                    "block-start": { "$$type": "size", "value": { "unit": "px", "size": 0 } },
+                    "inline-end": { "$$type": "size", "value": { "unit": "px", "size": 0 } },
+                    "block-end": { "$$type": "size", "value": { "unit": "px", "size": 0 } },
+                    "inline-start": { "$$type": "size", "value": { "unit": "px", "size": 0 } }
+                  }
+                }
+              },
+              "custom_css": null
+            }
+          ]
+        }
+      },
+      "version": "0.0"
+    },
+    {
+      "id": "6aec8d17",
+      "settings": {
+        "classes": { "$$type": "classes", "value": ["e-6aec8d17-0cf11f3"] }
+      },
+      "elements": [
+        {
+          "id": "23f91b6c",
+          "settings": {
+            "classes": { "$$type": "classes", "value": ["e-23f91b6c-1470354"] },
+            "title": { "$$type": "escaped-html", "value": "Tropic Hiking Trails" }
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "e-heading",
+          "elType": "widget",
+          "styles": {
+            "e-23f91b6c-1470354": {
+              "id": "e-23f91b6c-1470354",
+              "label": "local",
+              "type": "class",
+              "variants": [
+                {
+                  "meta": { "breakpoint": "desktop", "state": null },
+                  "props": {
+                    "color": { "$$type": "color", "value": "#FFF" }
+                  },
+                  "custom_css": null
+                }
+              ]
+            }
+          },
+          "version": "0.0"
+        },
+        {
+          "id": "2d1f1c72",
+          "settings": {
+            "classes": { "$$type": "classes", "value": ["e-2d1f1c72-d57517a"] },
+            "paragraph": { "$$type": "escaped-html", "value": "Find your next trail with MyRehat" },
+            "link": { "$$type": "link", "value": [] }
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "e-paragraph",
+          "elType": "widget",
+          "styles": {
+            "e-2d1f1c72-d57517a": {
+              "id": "e-2d1f1c72-d57517a",
+              "label": "local",
+              "type": "class",
+              "variants": [
+                {
+                  "meta": { "breakpoint": "desktop", "state": null },
+                  "props": {
+                    "color": { "$$type": "color", "value": "#FFF" }
+                  },
+                  "custom_css": null
+                }
+              ]
+            }
+          },
+          "version": "0.0"
+        },
+        {
+          "id": "5e551523",
+          "settings": {
+            "html": "<div style=\"text-align: center; margin-top: 14px; width: 100%; display: flex; justify-content: center;\">\r\n  <input id=\"main-search\" type=\"text\" placeholder=\"Search homepage...\" style=\"padding: 10px 14px; font-size: 15px; width: 450px; max-width: 90vw; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;\" />\r\n</div>"
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "html",
+          "elType": "widget"
+        }
+      ],
+      "isInner": false,
+      "elType": "e-flexbox",
+      "styles": {
+        "e-6aec8d17-0cf11f3": {
+          "id": "e-6aec8d17-0cf11f3",
+          "label": "hero-section",
+          "type": "class",
+          "variants": [
+            {
+              "meta": { "breakpoint": "desktop", "state": null },
+              "props": {
+                "width": { "$$type": "size", "value": { "unit": "%", "size": 100 } },
+                "padding": {
+                  "$$type": "dimensions",
+                  "value": {
+                    "block-start": { "$$type": "size", "value": { "unit": "px", "size": 32 } },
+                    "inline-end": { "$$type": "size", "value": { "unit": "px", "size": 20 } },
+                    "block-end": { "$$type": "size", "value": { "unit": "px", "size": 32 } },
+                    "inline-start": { "$$type": "size", "value": { "unit": "px", "size": 20 } }
+                  }
+                },
+                "background": {
+                  "$$type": "background",
+                  "value": {
+                    "color": { "$$type": "color", "value": "#0c6b4f" }
+                  }
+                },
+                "flex-direction": { "$$type": "string", "value": "column" },
+                "justify-content": { "$$type": "string", "value": "center" },
+                "align-items": { "$$type": "string", "value": "center" }
+              },
+              "custom_css": null
+            }
+          ]
+        }
+      },
+      "version": "0.0"
+    },
+    {
+      "id": "b2promo",
+      "settings": {
+        "classes": { "$$type": "classes", "value": ["e-b2promo-style"] }
+      },
+      "elements": [
+        {
+          "id": "b2promohtml",
+          "settings": {
+            "html": "<div class=\"trails-promo\" style=\"padding: 12px 20px; text-align: center; width: 100%;\">\n  <strong>Limited offer:</strong> 20% off all guided hikes this month.\n</div>"
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "html",
+          "elType": "widget"
+        }
+      ],
+      "isInner": false,
+      "elType": "e-flexbox",
+      "styles": {
+        "e-b2promo-style": {
+          "id": "e-b2promo-style",
+          "label": "promo-section",
+          "type": "class",
+          "variants": [
+            {
+              "meta": { "breakpoint": "desktop", "state": null },
+              "props": {
+                "width": { "$$type": "size", "value": { "unit": "%", "size": 100 } },
+                "background": {
+                  "$$type": "background",
+                  "value": {
+                    "color": { "$$type": "color", "value": "#fff3cd" }
+                  }
+                },
+                "flex-direction": { "$$type": "string", "value": "column" },
+                "align-items": { "$$type": "string", "value": "stretch" },
+                "padding": {
+                  "$$type": "dimensions",
+                  "value": {
+                    "block-start": { "$$type": "size", "value": { "unit": "px", "size": 0 } },
+                    "inline-end": { "$$type": "size", "value": { "unit": "px", "size": 0 } },
+                    "block-end": { "$$type": "size", "value": { "unit": "px", "size": 0 } },
+                    "inline-start": { "$$type": "size", "value": { "unit": "px", "size": 0 } }
+                  }
+                }
+              },
+              "custom_css": null
+            }
+          ]
+        }
+      },
+      "version": "0.0"
+    },
+    {
+      "id": "c3main",
+      "settings": {
+        "classes": { "$$type": "classes", "value": ["e-c3main-style"] }
+      },
+      "elements": [
+        {
+          "id": "c3searchrow",
+          "settings": {
+            "html": "<div class=\"trails-search-row\" style=\"display: flex; gap: 10px; margin-bottom: 16px; max-width: 1000px; margin-left: auto; margin-right: auto; padding: 0 20px; box-sizing: border-box;\">\n  <input id=\"search-box\" type=\"text\" placeholder=\"Search trails...\" style=\"padding: 10px; font-size: 15px; flex: 1; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;\" />\n  <select id=\"category\" style=\"padding: 10px; font-size: 15px; flex: 1; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;\">\n    <option value=\"all\">All categories</option>\n    <option value=\"mountain\">Mountain</option>\n    <option value=\"beach\">Beach</option>\n    <option value=\"forest\">Forest</option>\n  </select>\n</div>\n<p id=\"trails-no-results\" hidden style=\"color: #a00; margin: 12px 20px; max-width: 1000px; margin-left: auto; margin-right: auto;\">No trails found.</p>"
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "html",
+          "elType": "widget"
+        },
+        {
+          "id": "c3cards",
+          "settings": {
+            "html": "<div class=\"trails-cards\" style=\"display: flex; flex-wrap: wrap; gap: 14px; max-width: 1000px; margin: 0 auto; padding: 0 20px; box-sizing: border-box; width: 100%;\">\n  <article class=\"trail-card\" data-category=\"mountain\" style=\"border: 1px solid #ddd; border-radius: 8px; padding: 14px; min-width: 0; background: #fff; flex: 1 1 280px; box-sizing: border-box;\">\n    <h3 style=\"font-size: 17px; margin: 0 0 6px 0;\">Mount Rinjani Sunrise</h3>\n    <p style=\"margin: 0 0 8px 0;\">2-day guided summit trek, Lombok.</p>\n    <span class=\"price\" style=\"font-weight: bold; color: #0c6b4f;\">RM 350 / pax</span>\n  </article>\n  <article class=\"trail-card\" data-category=\"beach\" style=\"border: 1px solid #ddd; border-radius: 8px; padding: 14px; min-width: 0; background: #fff; flex: 1 1 280px; box-sizing: border-box;\">\n    <h3 style=\"font-size: 17px; margin: 0 0 6px 0;\">Pulau Perhentian Coastal Walk</h3>\n    <p style=\"margin: 0 0 8px 0;\">Easy coastal trail, Terengganu.</p>\n    <span class=\"price\" style=\"font-weight: bold; color: #0c6b4f;\">RM 120 / pax</span>\n  </article>\n  <article class=\"trail-card\" data-category=\"forest\" style=\"border: 1px solid #ddd; border-radius: 8px; padding: 14px; min-width: 0; background: #fff; flex: 1 1 280px; box-sizing: border-box;\">\n    <h3 style=\"font-size: 17px; margin: 0 0 6px 0;\">Taman Negara Canopy Trail</h3>\n    <p style=\"margin: 0 0 8px 0;\">Rainforest walk, Pahang.</p>\n    <span class=\"price\" style=\"font-weight: bold; color: #0c6b4f;\">RM 180 / pax</span>\n  </article>\n  <article class=\"trail-card\" data-category=\"mountain\" style=\"border: 1px solid #ddd; border-radius: 8px; padding: 14px; min-width: 0; background: #fff; flex: 1 1 280px; box-sizing: border-box;\">\n    <h3 style=\"font-size: 17px; margin: 0 0 6px 0;\">Mount Kinabalu Base Trek</h3>\n    <p style=\"margin: 0 0 8px 0;\">Highland trek, Sabah.</p>\n    <span class=\"price\" style=\"font-weight: bold; color: #0c6b4f;\">RM 420 / pax</span>\n  </article>\n  <article class=\"trail-card\" data-category=\"beach\" style=\"border: 1px solid #ddd; border-radius: 8px; padding: 14px; min-width: 0; background: #fff; flex: 1 1 280px; box-sizing: border-box;\">\n    <h3 style=\"font-size: 17px; margin: 0 0 6px 0;\">Langkawi Sunset Ridge</h3>\n    <p style=\"margin: 0 0 8px 0;\">Evening ridge walk, Kedah.</p>\n    <span class=\"price\" style=\"font-weight: bold; color: #0c6b4f;\">RM 95 / pax</span>\n  </article>\n  <article class=\"trail-card\" data-category=\"forest\" style=\"border: 1px solid #ddd; border-radius: 8px; padding: 14px; min-width: 0; background: #fff; flex: 1 1 280px; box-sizing: border-box;\">\n    <h3 style=\"font-size: 17px; margin: 0 0 6px 0;\">Belum Mossy Forest</h3>\n    <p style=\"margin: 0 0 8px 0;\">Misty forest trail, Perak.</p>\n    <span class=\"price\" style=\"font-weight: bold; color: #0c6b4f;\">RM 150 / pax</span>\n  </article>\n</div>"
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "html",
+          "elType": "widget"
+        },
+        {
+          "id": "c3booking",
+          "settings": {
+            "html": "<section class=\"trails-booking\" style=\"margin-top: 28px; border-top: 2px solid #eee; padding-top: 18px; max-width: 1000px; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px;\">\n  <h2 style=\"font-size: 24px; margin: 0 0 14px 0;\">Book a guided hike</h2>\n  <form id=\"booking-form\" style=\"display: flex; flex-direction: column; gap: 12px; max-width: 420px;\">\n    <input type=\"hidden\" name=\"trails_booking\" value=\"1\">\n    <label style=\"display: flex; flex-direction: column; gap: 4px;\">Name\n      <input type=\"text\" name=\"name\" required style=\"padding: 9px; font-size: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; width: 100%;\" />\n    </label>\n    <label style=\"display: flex; flex-direction: column; gap: 4px;\">Date\n      <input type=\"date\" name=\"date\" required style=\"padding: 9px; font-size: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; width: 100%;\" />\n    </label>\n    <div style=\"display: flex; align-items: center; gap: 12px; flex-wrap: wrap;\">\n      <span style=\"font-weight: 600; min-width: 110px;\">Digital Nomad:</span>\n      <label><input type=\"radio\" name=\"digital_nomad\" value=\"Ya\" required /> Ya</label>\n      <label><input type=\"radio\" name=\"digital_nomad\" value=\"Tidak\" required /> Tidak</label>\n    </div>\n    <div style=\"display: flex; align-items: center; gap: 12px; flex-wrap: wrap;\">\n      <span style=\"font-weight: 600; min-width: 110px;\">Package Plan:</span>\n      <label><input type=\"radio\" name=\"pricing_plan\" value=\"Daily\" required /> Daily</label>\n      <label><input type=\"radio\" name=\"pricing_plan\" value=\"Monthly\" required /> Monthly</label>\n    </div>\n    <label style=\"display: flex; align-items: center; gap: 8px; cursor: pointer;\">\n      <input type=\"checkbox\" name=\"host_terms\" value=\"1\" required /> I agree to the Host Terms\n    </label>\n    <p id=\"trails-total\" style=\"font-weight: bold; font-size: 16px; margin: 4px 0;\">Total: -</p>\n    <button type=\"submit\" style=\"padding: 11px; background: #0c6b4f; color: #fff; border: 0; cursor: pointer; border-radius: 4px; font-size: 16px;\">Request booking</button>\n  </form>\n  <div id=\"trails-confirmation\" hidden style=\"margin-top: 12px; border: 1px solid #0c6b4f; border-radius: 8px; padding: 12px; background: #eef7f2;\"></div>\n</section>"
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "html",
+          "elType": "widget"
+        }
+      ],
+      "isInner": false,
+      "elType": "e-flexbox",
+      "styles": {
+        "e-c3main-style": {
+          "id": "e-c3main-style",
+          "label": "main-content",
+          "type": "class",
+          "variants": [
+            {
+              "meta": { "breakpoint": "desktop", "state": null },
+              "props": {
+                "width": { "$$type": "size", "value": { "unit": "%", "size": 100 } },
+                "padding": {
+                  "$$type": "dimensions",
+                  "value": {
+                    "block-start": { "$$type": "size", "value": { "unit": "px", "size": 20 } },
+                    "inline-end": { "$$type": "size", "value": { "unit": "px", "size": 0 } },
+                    "block-end": { "$$type": "size", "value": { "unit": "px", "size": 20 } },
+                    "inline-start": { "$$type": "size", "value": { "unit": "px", "size": 0 } }
+                  }
+                },
+                "flex-direction": { "$$type": "string", "value": "column" },
+                "align-items": { "$$type": "string", "value": "stretch" }
+              },
+              "custom_css": null
+            }
+          ]
+        }
+      },
+      "version": "0.0"
+    },
+    {
+      "id": "d4footer",
+      "settings": {
+        "classes": { "$$type": "classes", "value": ["e-d4footer-style"] }
+      },
+      "elements": [
+        {
+          "id": "d4footerhtml",
+          "settings": {
+            "html": "<footer class=\"trails-footer\" style=\"color: #ccc; padding: 22px 20px; text-align: center; width: 100%;\">\n  <nav style=\"display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-bottom: 12px;\">\n    <a href=\"#\" style=\"color: #ccc; text-decoration: none;\">FAQ</a>\n    <a href=\"#\" style=\"color: #ccc; text-decoration: none;\">Contact Us</a>\n    <a href=\"#\" style=\"color: #ccc; text-decoration: none;\">PDPA</a>\n    <a href=\"#\" style=\"color: #ccc; text-decoration: none;\">Privacy Policy</a>\n  </nav>\n  <div style=\"display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin-bottom: 12px;\">\n    <a href=\"#\" style=\"color: #fff; font-weight: 500; text-decoration: none;\">Facebook</a>\n    <a href=\"#\" style=\"color: #fff; font-weight: 500; text-decoration: none;\">LinkedIn</a>\n    <a href=\"#\" style=\"color: #fff; font-weight: 500; text-decoration: none;\">IG</a>\n    <a href=\"#\" style=\"color: #fff; font-weight: 500; text-decoration: none;\">TikTok</a>\n    <a href=\"#\" style=\"color: #fff; font-weight: 500; text-decoration: none;\">YouTube</a>\n  </div>\n  <p style=\"margin: 0;\">&copy; 2026 MyRehat</p>\n</footer>"
+          },
+          "elements": [],
+          "isInner": false,
+          "widgetType": "html",
+          "elType": "widget"
+        }
+      ],
+      "isInner": false,
+      "elType": "e-flexbox",
+      "styles": {
+        "e-d4footer-style": {
+          "id": "e-d4footer-style",
+          "label": "footer-section",
+          "type": "class",
+          "variants": [
+            {
+              "meta": { "breakpoint": "desktop", "state": null },
+              "props": {
+                "width": { "$$type": "size", "value": { "unit": "%", "size": 100 } },
+                "background": {
+                  "$$type": "background",
+                  "value": {
+                    "color": { "$$type": "color", "value": "#222" }
+                  }
+                },
+                "flex-direction": { "$$type": "string", "value": "column" },
+                "align-items": { "$$type": "string", "value": "stretch" },
+                "margin": {
+                  "$$type": "dimensions",
+                  "value": {
+                    "block-start": { "$$type": "size", "value": { "unit": "px", "size": 30 } }
+                  }
+                },
+                "padding": {
+                  "$$type": "dimensions",
+                  "value": {
+                    "block-start": { "$$type": "size", "value": { "unit": "px", "size": 0 } },
+                    "inline-end": { "$$type": "size", "value": { "unit": "px", "size": 0 } },
+                    "block-end": { "$$type": "size", "value": { "unit": "px", "size": 0 } },
+                    "inline-start": { "$$type": "size", "value": { "unit": "px", "size": 0 } }
+                  }
+                }
+              },
+              "custom_css": null
+            }
+          ]
+        }
+      },
+      "version": "0.0"
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "tropic-hiking-hero",
+  "type": "page"
+}
