@@ -37,3 +37,28 @@
   1. PHP logic in `functions.php` successfully localizes strings with text-domain `myrehat-test`, verifies nonces and sanitizes `$_POST` before setting transients, and passes 2 hook arguments to `myrehat_test_count_view`.
   2. HTML & CSS in `page-trails.php` and `style.css` supply the sticky contact bar, correct `<h1>` title, required booking fields, clean footer navigation, and full responsiveness with zero horizontal scroll at 390px width.
   3. JavaScript in `trails.js` corrects all element IDs, provides synchronized multi-input filtering, calculates live package totals (RM 350 / RM 8.400), and posts valid form submissions via `fetch` with confirmation feedback.
+
+## [Timestamp: 2026-10-27 21:00] - Elementor Hero Section Rebuild & Layout Template Export
+- **User Prompt:**
+  "Rebuild the Hero Section for Task A using Elementor flexbox containers and export the updated JSON template (`elementor-12-2026-10-26.json`) matching the target reference design:
+
+  1. **Primary Task:** Rebuild the hero section using Elementor's native flexbox structure (`e-flexbox`, `e-heading`, `e-paragraph`, and search input widget) to replace the legacy layout and export the clean Elementor JSON template.
+  2. **Layout & Alignment Refinements:**
+     - Center the sticky contact bar (WhatsApp & LINE buttons) and the Limited Offer promo banner, ensuring their backgrounds stretch 100% full-width across the viewport.
+     - Increase the `#main-search` input width inside the hero section to match the wide target layout, centered with responsive scaling for mobile (390px screens)."
+
+- **Implementation Details:**
+  1. **`elementor-12-2026-10-26.json` (Hero Section & Page Structure):**
+     - Rebuilt the Elementor hero section container (`e-flexbox`) using native `e-heading` ("Tropic Hiking Trails"), `e-paragraph` ("Find your next trail with MyRehat"), and an `html` search input widget with `#main-search`.
+     - Structured the full page sections into modular flexbox containers: sticky contact bar (WhatsApp & LINE), hero section, limited offer promo banner, main trails listing (with search, category select, cards, and booking form), and footer.
+  2. **Container Width & Alignment Fixes:**
+     - Applied `width: 100%` across all section containers (`a1contact`, `6aec8d17`, `b2promo`, `c3main`, and `d4footer`).
+     - Moved section background colors (`#094f3a` for contact bar, `#fff3cd` for promo, and `#222` for footer) directly to the Elementor container level with `align-items: stretch` and `flex-direction: column`, ensuring the sticky contact bar and promo banner stretch across the full viewport width with centered content.
+  3. **Search Input Width & Responsiveness:**
+     - Resolved intrinsic size collapse where `width: min(420px, 90%)` defaulted to `size="20"` (~150px) inside the centered flex container.
+     - Updated `#main-search` inside the hero section to `width: 450px; max-width: 90vw;` within a centered flex wrapper (`display: flex; justify-content: center; width: 100%;`), matching the target design width while preventing horizontal overflow on 390px mobile viewports.
+
+- **3-Line Verification Summary:**
+  1. Rebuilt hero section and page structure in `elementor-12-2026-10-26.json` matching the Elementor flexbox container schema and target layout.
+  2. Configured full-width containers and container-level backgrounds with `align-items: stretch` so contact and promo banners span 100% viewport width centered.
+  3. Sized `#main-search` explicitly to 450px width centered with `max-width: 90vw`, eliminating flex width collapse and preserving mobile responsiveness.
